@@ -1,0 +1,14 @@
+:root {
+    --main-color1: #fa7844;
+    --main-color2: #EBE5D8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
