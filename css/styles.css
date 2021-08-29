@@ -12,3 +12,53 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.mainContainer{
+    background: var(--main-color2);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        background: goldenrod;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+        .menu{
+            background: grey;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+            .logo{
+                background: indianred;
+                flex: 1 1 auto;
+            }
+            
+            .nav{
+                background: royalblue;
+                flex: 5 1 auto;
+            }
+
+    .section{
+        background: brown;
+        display: flex;
+    }
+
+        .articles{
+            display: flex;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+
+            .article{
+                background:sandybrown;
+                flex: 1 1 50%;
+            }
+
+    .footer{
+        background: cadetblue;
+    }
